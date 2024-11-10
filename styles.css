@@ -1,0 +1,230 @@
+/* Universal reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black; /* Light gray background for the whole page */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Main container styling */
+.container {
+    width: 100%;
+    max-width: 900px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Section styling */
+.resume-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #FF6EC7, #FF9A8B); /* Gradient background */
+    color: rgb(244, 236, 236);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ddd; /* Light border for sections */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for sections */
+.resume-section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading styling */
+h2 {
+    font-size: 26px;
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Details section styling */
+.details {
+    margin-top: 15px;
+    display: block; /* Show by default */
+    font-size: 16px;
+    line-height: 1.6;
+    background: white(255, 255, 255, 0.8); /* Light background for details */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Profile picture styling */
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Button Styling */
+button.toggle-btn {
+    background-color: #007bff;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+button.toggle-btn:hover {
+    background-color: #0056b3;
+}
+
+/* List styling for Skills section */
+.details ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.details ul li {
+    margin-bottom: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    button.toggle-btn {
+        width: 100%;
+    }
+}
+/* Universal reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1; /* Light gray background for the whole page */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Main container styling */
+.container {
+    width: 100%;
+    max-width: 900px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Section styling */
+.resume-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #FF6EC7, #FF9A8B); /* Gradient background */
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ddd; /* Light border for sections */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for sections */
+.resume-section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading styling */
+h2 {
+    font-size: 26px;
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(10, 1, 1, 0.5);
+}
+
+/* Details section styling */
+.details {
+    margin-top: 15px;
+    display: block; /* Show by default */
+    font-size: 16px;
+    line-height: 1.6;
+    background: rgba(255, 255, 255, 0.8); /* Light background for details */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Profile picture styling */
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Button Styling */
+button.toggle-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+button.toggle-btn:hover {
+    background-color: #0056b3;
+}
+
+/* List styling for Skills section */
+.details ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.details ul li {
+    margin-bottom: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    button.toggle-btn {
+        width: 100%;
+    }
+}

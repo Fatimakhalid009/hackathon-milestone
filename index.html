@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Personal Information Section -->
+        <section class="resume-section" id="personal-info-section">
+            <h2>Personal Information</h2>
+            <div id="personal-info-details" class="details">
+                <img src="./profile.jpeg" alt="Profile Picture" class="profile-pic">
+                <p><strong>Name:Fatima Khalid</strong> </p>
+                <p><strong>Email: fatimakhalidfkr@gmail.com</strong> </p>
+                <p><strong>Phone: +92 332 8222176</strong> </p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="resume-section" id="education-section">
+            <h2>Education</h2>
+            <button class="toggle-btn" onclick="toggleVisibility('education')">Hide Education</button>
+            <div id="education-details" class="details">
+                <p><strong>IT student: Governor House(continue)</p>
+                <p><strong>Degree:PHARM-D from University of Karachi(continue)</p>
+                <p><strong>Intermediate in Pre-Medical Science: Govt Degree College for Women Block M North Nazimabad(2021-2022) </p>
+                <p><strong>Matriculation of Science: The Smart School(2019-2020)</p>
+                
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="resume-section" id="skills-section">
+            <h2>Skills</h2>
+            <button class="toggle-btn" onclick="toggleVisibility('skills')">Hide Skills</button>
+            <div id="skills-details" class="details">
+                <ul>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="resume-section" id="work-experience-section">
+            <h2>Work Experience</h2>
+            <button class="toggle-btn" onclick="toggleVisibility('work-experience')">Hide Work Experience</button>
+            <div id="work-experience-details" class="details">
+                <p><strong>Front-End Developer</strong></p>
+                <p>Building scalable web applications using React, Node.js, html, css and Javascript</p>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
